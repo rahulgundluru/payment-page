@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.hr-line{
+    width: 93.99552917480504px;
+    top: -34.9620246887207px;
+    left: 183.73806762695312px;
+    border: 0.9038031101226807px;
+    angle: -0 deg;
+}
+
+.heading {
+    width: 122px;
+    height: 22px;
+    top: -46px;
+    left: 44.999996185302734px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CD264F;
+}
+
+.first-cont-heading {
+    display: flex;
+}
+
+.first-pair-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350.7337951660156px;
+    height: 74.11185455322266px;
+    gap: 15px;
+    border-radius: 3.6152124404907227px;
+    border: 0.9px solid #C8C8C8;
+    padding-left: 20px;
+}
+
+.first-sub-cont-para {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 263px;
+    gap: 10px;
+}
+
+.second-cont {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 350.7337951660156px;
+    height: 161.78076171875px;
+    border-radius: 3.6152124404907227px;
+    border: 0.9038031101226807px;
+    border: 0.9px solid #C8C8C8;
+    padding-bottom: 5px;
+    
+}
+
+.second-sub-cont {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.second-sub-first-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+}
+
+.sec-middle-text {
+    align-self: flex-end;
+    text-decoration: line-through;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 50%;
+    color: #000000;
+}
+
+.sec-last-text {
+    text-align: end;
+}
+
+.sec-sub-table-cont {
+    padding-left: 35px;
+}
+
+.product-table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.table-select-cont {
+    width: 65.97763061523438px;
+    height: 25.306488037109375px;
+    border-radius: 1.8076062202453613px;
+    border: 0.9038031101226807px;
+    border: 0.9px solid #D9D9D9;
+    color: linear-gradient(0deg, #D9D9D9, #D9D9D9),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+.table-col-names {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-cont-free {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.number-text {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.para-text-last-ship {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CD264F;
+    padding-right: 110px;
+}
+
+.para-text-last-pumper {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+    padding-left: 226px;
+}
+.btn {
+    width: 370px;
+    height: 48px;
+    border-radius: 4px 4px 4px 0px;
+    background: #CD264F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.para-1pair {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.para-dkk-195 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.para-50off {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #000000;
+    font-family: Metropolis;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.para-popular {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CD264F;
+
+}
+
+.back-color-change {
+    background-image: linear-gradient(0deg, #F88CA7, #F88CA7),
+linear-gradient(0deg, #FFF4F7, #FFF4F7);
+}
+
+.plain-color {
+    background-color: #ffffff;
+}
